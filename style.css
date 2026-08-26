@@ -64,6 +64,9 @@ p{
 .main{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 30px;
     padding: 50px;
 }
 .box2{
@@ -89,4 +92,14 @@ header {
 
 .about-text {
     flex: 1;
+}
+@media (max-width: 900px) {
+    .box1 {
+        flex-direction: column; /* stack about text + image */
+        padding: 40px 20px;
+    }
+    .photo1 {
+        width: 100%; /* image becomes full width */
+        height: auto;
+    }
 }
