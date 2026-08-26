@@ -29,9 +29,7 @@ h2{
 p{
     color: rgb(220, 193, 183);
 }
-nav{
-    margin-left: 650px;
-}
+
 .text{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -73,4 +71,14 @@ nav{
 }
 .box2{
     background-color: antiquewhite;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header {
+    background: rgba(0,0,0,0.3);
 }
