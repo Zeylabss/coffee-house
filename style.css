@@ -93,6 +93,7 @@ header {
 .about-text {
     flex: 1;
 }
+/* PHONE VERSION */
 @media (max-width: 900px) {
     .box1 {
         flex-direction: column; /* stack about text + image */
@@ -100,6 +101,15 @@ header {
     }
     .photo1 {
         width: 100%; /* image becomes full width */
-        height: auto;
+        height: 250px;
+    }
+    .main {
+        flex-direction: column; /* stack menu cards */
+        align-items: center; /* center them */
+        padding: 20px;
+    }
+    .espresso {
+        width: 90%; /* cards take almost full width */
+        max-width: 350px;
     }
 }
