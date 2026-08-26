@@ -1,0 +1,76 @@
+h1,a{
+    font-size: small;
+    color: rgb(203, 182, 174);
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.hero{
+    background-image: url("./coffee1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.order{
+    height: 35px;
+    width: 110px;
+    border-radius: 20px;
+    background-color: rgb(213, 194, 187);
+    border: none;
+}
+.A{
+font-family:'Alex Brush' , cursive;
+color: rgb(220, 193, 183);
+}
+h2{
+    font-family:serif;
+    color: rgb(220, 193, 183);
+    font-size:xx-large;
+}
+p{
+    color: rgb(220, 193, 183);
+}
+nav{
+    margin-left: 650px;
+}
+.text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.b2{
+    background-color: rgb(174, 123, 94);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+}
+.photo1{
+    width: 500px;
+    height: 200px;
+    object-fit:cover;
+    margin-left: 400px;
+    margin-top: -500px;
+    border-radius: 20px;
+}
+.box1{
+    background-color:  rgb(225, 206, 197);
+}
+.espresso{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(241, 227, 218);
+    border-radius: 15px;
+}
+.esp{
+    margin-bottom: -20px;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+.box2{
+    background-color: antiquewhite;
+}
