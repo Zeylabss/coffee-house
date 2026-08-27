@@ -168,16 +168,17 @@ header {
 
 .price-circle{
     position: absolute;
-    top: -20px;
-    left: -20px;
+    top: -15px;   /* yuxarıdan biraz çölə çıxardıq */
+    right: -15px; /* sağdan biraz çölə çıxardıq */
     background-color: rgb(60, 40, 30);
-    color: white;
+    color: rgb(220, 193, 183);
     border: 3px solid rgb(174, 123, 94);
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    font-size: 16px;
 }
