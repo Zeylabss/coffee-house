@@ -182,3 +182,73 @@ header {
     font-weight: bold;
     font-size: 16px;
 }
+.box4{
+    background-color: rgb(241, 227, 218); /* şəkildəki açıq bej */
+    padding: 60px 50px;
+    text-align: center;
+    position: relative;
+}
+
+.box4 h3{
+    color: rgb(79, 39, 18);
+    font-size: 24px;
+    font-family: 'Lucida Sans', sans-serif;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+.reservation-form{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 160px;
+}
+
+.form-group label{
+    color: rgb(125, 85, 60);
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.form-group input,
+.form-group select{
+    padding: 8px 10px;
+    border: 1px solid rgb(203, 182, 174);
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 13px;
+}
+
+.reserve-btn{
+    background-color: rgb(60, 40, 30);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-family: 'Lucida Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.reservation-side-img{
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+
+.reservation-side-img img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
