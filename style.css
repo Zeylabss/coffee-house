@@ -187,6 +187,7 @@ header {
     background-color: #F1E3DA;
     padding: 80px 20px;
     width: 100%;
+    margin-bottom: 0; /* footer-ə yapışsın */
 }
 
 .box4 h3{
@@ -255,11 +256,13 @@ header {
 }
 /* === SADƏ FOOTER === */
 .footer{
-    background-color: #3C281E; /* tünd qəhvəyi */
+    background-color: #3C281E; 
     color: #CBB6AE;
     padding: 40px 20px 20px 20px;
     font-family: 'Lucida Sans', sans-serif;
     text-align: center;
+    width: 100%;
+    margin-top: 0; /* box4 ilə birləşsin */
 }
 
 .footer-content{
