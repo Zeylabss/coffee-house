@@ -183,26 +183,27 @@ header {
     font-size: 16px;
 }
 .box4{
-    background-color: rgb(241, 227, 218); /* şəkildəki açıq bej */
-    padding: 60px 50px;
+    background-color: rgb(241, 227, 218); /* açıq bej */
+    padding: 70px 40px;
     text-align: center;
-    position: relative;
 }
 
 .box4 h3{
     color: rgb(79, 39, 18);
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Lucida Sans', sans-serif;
     margin-bottom: 40px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    font-weight: normal;
 }
 
 .reservation-form{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    align-items: flex-end; /* label və inputlar bərabər olsun */
+    gap: 25px;
     flex-wrap: wrap;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto 30px auto;
 }
 
@@ -210,24 +211,32 @@ header {
     display: flex;
     flex-direction: column;
     text-align: left;
-    width: 160px;
+    width: 170px;
 }
 
 .form-group label{
     color: rgb(125, 85, 60);
-    font-size: 12px;
-    margin-bottom: 5px;
+    font-size: 11px;
+    margin-bottom: 8px;
     font-family: 'Lucida Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 .form-group input,
 .form-group select{
-    padding: 8px 10px;
-    border: 1px solid rgb(203, 182, 174);
-    border-radius: 5px;
+    padding: 10px 12px;
+    border: 1px solid rgb(220, 210, 205);
+    border-radius: 6px;
     background-color: white;
     font-family: 'Lucida Sans', sans-serif;
     font-size: 13px;
+    color: rgb(60, 40, 30);
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.form-group input::placeholder{
+    color: rgb(180, 170, 165);
 }
 
 .reserve-btn{
@@ -235,20 +244,8 @@ header {
     color: white;
     border: none;
     border-radius: 20px;
-    padding: 10px 25px;
+    padding: 12px 30px;
     font-family: 'Lucida Sans', sans-serif;
-    margin-bottom: 20px;
-}
-
-.reservation-side-img{
-    position: absolute;
-    right: 50px;
-    bottom: 0;
-}
-
-.reservation-side-img img{
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
 }
